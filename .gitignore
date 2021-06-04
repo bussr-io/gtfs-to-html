@@ -3,6 +3,7 @@ html
 /config*
 !config-sample.json
 views/custom
+data/*
 
 .git
 .DS_Store
