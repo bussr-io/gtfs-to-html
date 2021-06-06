@@ -29,7 +29,7 @@ Built-in styling makes `gtfs-to-html` timetables ready to size and scroll easily
 By generating future timetables and including dates in table metadata, your timetables can appear in advance of a schedule change, and you can validate that your new timetables and GTFS are correct.
 
 ### Auto-generated maps
-`gtfs-to-html` can also generate a map for each route that can be included with the schedule page. The map shows all stops for the route and lists all routes that serve each stop. See the `showMap` configuration option below. 
+`gtfs-to-html` can also generate a map for each route that can be included with the schedule page. The map shows all stops for the route and lists all routes that serve each stop. The functionality depends on mapbox service. See the `showMap` configuration option below. 
 
 Note: If you only want maps of GTFS data, use the [gtfs-to-geojson](https://github.com/blinktaginc/gtfs-to-geojson) package instead and skip making timetables entirely. If offers many different formats of GeoJSON for routes and stops.
 
